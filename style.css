@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/* .boarders {
+    border: 2px solid red;
+} */
+
+.main_menu {
+    text-align: right;
+}
+
+.main_menu ul {
+    list-style-type: none;
+}
+
+.link-success{
+    color: antiquewhite;
+}
+
+.intro {
+    width: 100%;
+    height: 800px;
+    padding: 20%;
+    background-image: url(codePicture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro h1 {
+    size: 200px;
+    /* color: #00FF66; */
+}
+
+.quotes {
+    padding: 50px;
+    height: 200px;
+    width: 100%;
+    background-color: #080f13;
+}
+
+#about_me {
+    padding: 50px;
+    height: 300px;
+    background-color: #1e2328;
+}
+
+/* .about_me .container img {
+    height: 200px;
+    width: 100%;
+} */
+#profile_pic {
+    width: 100%;
+    height: 200px;
+    background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.animation_bar {
+    height: 200px;
+    background-color: #283335;
+}
+
+.my_projects {
+    height: 300px;
+    background-color: #080f13;
+    /* background-color: wheat; */
+}
+
+.my_projects img {
+    text-align: center;
+    width: 65%;
+    /* height: 200px; */
+}
+
+.my_projects .row .project_image {
+    height: 200px;
+}
+
+.contact_me {
+    background-color: #080f13;
+    height: 500px;
+}
+
+.conctact_me_forms {
+    height: 400px;
+}
+
+.icons {
+    /* background-color: wheat; */
+}
+
+.bi-github{
+    align-content: flex-end;
+}
+
+footer p{
+    text-align: center;
+}
