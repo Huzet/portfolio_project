@@ -16,6 +16,10 @@
     <!-- Icons from BootStrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&display=swap" rel="stylesheet">
+
     <title>chekko profile</title>
 </head>
 
@@ -27,7 +31,7 @@
                     <h1>Chekko Codes</h1>
                 </div>
             </div>
-            <div class="row main_menu">
+            <div class="row main_menu" >
                 <div class="col-5 boarders"></div>
                 <ul>
                     <li><a href="#about_me" class="link-success"> About me</a></li>
@@ -75,38 +79,28 @@
             </div>
         </div>
     </div>
-    <div id="my_projects" class="boarders my_projects">
-        <div class="container boarders">
+    <div  class="boarders my_projects">
+        <div id="my_projects" class="container boarders">
             <div class="row">
                 <div class="col-3 boarders project_image">
                     <img src="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png"
-                        alt="logo_github_icon_143196" class="center">
+                        alt="logo_github_icon_143196" class="center img-fluid">
+                        <a href="https://github.com/Huzet/swbattleship" class="link-success"> sw Battleship</a>
                 </div>
                 <div class="col-3 boarders project_image">
                     <img src="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png"
-                        alt="logo_github_icon_143196" class="center">
+                        alt="logo_github_icon_143196" class="center img-fluid">
+                        <a href="https://github.com/Huzet/web-scraper" class="link-success"> web scraper</a>
                 </div>
-                <div class="col-3 boarders project_image">
+                <div class="col-3 boarders project_image ">
                     <img src="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png"
-                        alt="logo_github_icon_143196" class="center">
+                        alt="logo_github_icon_143196" class="center img-fluid">
+                        <a href="https://github.com/Huzet/Leet_Code" class="link-success"> leet code</a>
                 </div>
-                <div class="col-3 boarders project_image">
+                <div class="col-3 boarders project_image img-fluid">
                     <img src="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png"
-                        alt="logo_github_icon_143196" class="center">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3 boarders">
-                    <p>sw Battleship</p>
-                </div>
-                <div class="col-3 boarders">
-                    <p>web scraper</p>
-                </div>
-                <div class="col-3 boarders">
-                    <p>leet code</p>
-                </div>
-                <div class="col-3 boarders">
-                    <p>hacker ranks</p>
+                        alt="logo_github_icon_143196" class="center img-fluid">
+                        <a href="https://github.com/Huzet/HackerRank" class="link-success"> hacker rank</a>
                 </div>
             </div>
         </div>
@@ -115,7 +109,28 @@
         <div id="contact_me" class="boarders contact_me">
             <div class="container boarders">
                 <div class="row conctact_me_forms">
-                    <p>CONTACT ME FORMS GOES HERE https://www.w3schools.com/css/css_form.asp</p>
+                    <div class="col-2 boarders">
+                    </div>
+                    <div class="col-8 boarders">
+                        <form>
+                            <div class="col-5 form-group">
+                                <label for="Name">Name</label>
+                                <input type="name" class="form-control" id="Name"  placeholder="Enter Name">
+                            </div>
+                            <div class="col-6 form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="InputEmail" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">So we can get back </small>
+                            </div>
+                            <div class="col-7 form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="Message" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-2 boarders">
+                    </div>                  
                 </div>
                 <div class="row icons d-flex">
                     <div class="col-2 boarders">
@@ -128,7 +143,7 @@
                         <i class="bi-mailbox d-flex justify-content-end" style="font-size: 2rem" role="img" aria-label="GitHub" ></i>
                     </div>
                     <div class="col-2 boarders">
-                        <p>chekko707@gmail.com</p>
+                        <a href="chekko707@gmail.com" class="link-success"> chekko707@gmail.com</a>
                     </div>
                     <div class="col-2 boarders">
                         <i class="bi-discord d-flex justify-content-end" style="font-size: 2rem" role="img" aria-label="GitHub" ></i>
@@ -136,7 +151,6 @@
                     <div class="col-2 boarders">
                         <a href="https://discordapp.com/users/943895891180388413" class="link-success"> discordapp</a>
                     </div>
-                    
                 </div>
             </div>
         </div>
