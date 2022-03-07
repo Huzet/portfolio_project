@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    color: antiquewhite;
+    color: greenyellow;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .center {
@@ -16,6 +17,7 @@ body {
 
 .main_menu {
     text-align: right;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .main_menu ul {
@@ -23,7 +25,7 @@ body {
 }
 
 .link-success{
-    color: antiquewhite;
+    color: greenyellow;
 }
 
 .intro {
@@ -37,6 +39,8 @@ body {
 
 .intro h1 {
     size: 200px;
+    font-family: 'Press Start 2P', cursive;
+    color: greenyellow;
     /* color: #00FF66; */
 }
 
@@ -44,13 +48,16 @@ body {
     padding: 50px;
     height: 200px;
     width: 100%;
-    background-color: #080f13;
+    /* background-color: #080f13; */
+    /* background-image:linear-gradient#010609, #080f13); */
+    background-image: linear-gradient(#010609, #080f13, #1e2328);
 }
 
 #about_me {
     padding: 50px;
     height: 300px;
-    background-color: #1e2328;
+    /* background-color: #1e2328; */
+    background-image: linear-gradient(#1e2328, #283335);
 }
 
 /* .about_me .container img {
@@ -74,13 +81,12 @@ body {
 .my_projects {
     height: 300px;
     background-color: #080f13;
-    /* background-color: wheat; */
+    background-image: linear-gradient(#283335, #080f13);
 }
 
 .my_projects img {
     text-align: center;
     width: 65%;
-    /* height: 200px; */
 }
 
 .my_projects .row .project_image {
@@ -96,14 +102,11 @@ body {
     height: 400px;
 }
 
-.icons {
-    /* background-color: wheat; */
-}
-
 .bi-github{
     align-content: flex-end;
 }
 
 footer p{
     text-align: center;
+    background-image: linear-gradient(#080f13, #000000);
 }
